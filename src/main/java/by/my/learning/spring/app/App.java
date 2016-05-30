@@ -1,4 +1,4 @@
-package by.my.learning.spring;
+package by.my.learning.spring.app;
 
 /**
  * Hello world!
