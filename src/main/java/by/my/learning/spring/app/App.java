@@ -12,7 +12,7 @@ public class App {
 
     public static void main(String[] args) {
         LOG.debug("App.main - START");
-        ApplicationContext context = new ClassPathXmlApplicationContext("/by/my/learning/spring/conf/app-context.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("app-context.xml");
 
         Person person = (Person) context.getBean("person");
         person.speak();
